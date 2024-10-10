@@ -2,7 +2,8 @@
   Jackson Kettel
   10/9/2024
 
-  WRITE A 2-3 SENTENCE FILE DESCRIPTION HERE
+  This is a style sheet for applying css to all of the html pages for this project.
+  It primarily focuses in the about.html page, but applies a few styles to the other two pages.
 */
 
 html, body {
@@ -18,7 +19,6 @@ header {
   width: 100%;
   height: 100%;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
 }
 
@@ -30,7 +30,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 35%;
+  width: 30%;
   margin-right: 2%;
 }
 
@@ -48,9 +48,12 @@ img {
 }
 
 section {
-  width: 60%;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
   color: white;
-  font-family: sans-serif;
+  font-family:'Poppins', sans-serif;
+  padding-left: 10%;
 }
 
 a {
@@ -61,12 +64,6 @@ a:visited {
   color: white;
 }
 
-
-
-
-/*
-  - Must have flexbox or grid for styling and structure
-  - 4 different rulesets in addition to the body ruleset (one must use a combinatorial selector, and the other a grouped comma-seperated selector)
-  - 10 different css properties, in addition to the 5 provided (background-color, font-family, margin-left, margin-right, width)
-  - One google font imported and used with an appropriate font (import into the head of html using link
-*/
+#title {
+  color: white;
+}
