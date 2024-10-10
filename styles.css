@@ -6,15 +6,46 @@
 */
 
 body {
+  background-image: url('img/background.jpg');
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 img {
-  display: flex;
-  width: 20%;
-  height: 20%;
   border-radius: 50%;  
 }
+
+h1 {
+  color: white;
+}
+
+#profile {
+  width: 30%;
+  height: 20%;
+}
+
+#links {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  height: 20%;
+}
+
+#links a, #links img {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+
+
 
 /*
   - Must have flexbox or grid for styling and structure
